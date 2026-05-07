@@ -32,9 +32,9 @@ export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const heroImages = [
-    "https://drive.google.com/uc?export=view&id=1-acs4BIdPo7y6q10fb2WV3tiuTbcdteo",
-    "https://drive.google.com/uc?export=view&id=1l9MA7TWeHw5CpQ2-ruMbQbd7h_FObPMY",
-    "https://drive.google.com/uc?export=view&id=1ddnwbyMb1jPpSQuysRFculCtx7Q-U0Vz"
+    "https://lh3.googleusercontent.com/d/1-acs4BIdPo7y6q10fb2WV3tiuTbcdteo",
+    "https://lh3.googleusercontent.com/d/1l9MA7TWeHw5CpQ2-ruMbQbd7h_FObPMY",
+    "https://lh3.googleusercontent.com/d/1ddnwbyMb1jPpSQuysRFculCtx7Q-U0Vz"
   ];
 
   useEffect(() => {
@@ -60,7 +60,7 @@ export default function App() {
       {/* Navigation Bar */}
       <nav className={`fixed top-0 left-0 w-full px-6 lg:px-12 py-4 flex justify-between items-center z-50 transition-all duration-300 ${isScrolled || isMenuOpen ? 'bg-white/90 backdrop-blur-md shadow-sm' : 'bg-transparent'}`}>
         <a href="#" className="flex items-center relative z-50 hover:opacity-80 transition-opacity">
-          <img referrerPolicy="no-referrer" src="https://drive.google.com/uc?export=view&id=13h6AmI1Lz2197eaFEohoqaNLEr_04mWT" alt="Mommy Baby Icon" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
+          <img referrerPolicy="no-referrer" src="https://lh3.googleusercontent.com/d/13h6AmI1Lz2197eaFEohoqaNLEr_04mWT" alt="Mommy Baby Icon" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
           <span className="font-logo text-3xl md:text-4xl tracking-wide text-brand-accent -ml-2 md:-ml-3">Mommy Baby</span>
         </a>
         
@@ -186,9 +186,9 @@ export default function App() {
                 </a>
                 <div className="flex items-center">
                   <div className="flex -space-x-3">
-                    <img src="https://drive.google.com/uc?export=view&id=1a6jN9BpJ5EwQrtHQDXyE86ZnNmsYIewI" alt="Baby" className="w-10 h-10 rounded-full border-2 border-white object-cover bg-gray-200" />
-                    <img src="https://drive.google.com/uc?export=view&id=1WWaClTv-J4SPKJ8pGeSM6XydUos89N4H" alt="Baby" className="w-10 h-10 rounded-full border-2 border-white object-cover bg-brand-pale" />
-                    <img src="https://drive.google.com/uc?export=view&id=1ZkBAcTyshz-FnKj1rXIDsS-hcEATKWT9" alt="Baby" className="w-10 h-10 rounded-full border-2 border-white object-cover bg-brand-light" />
+                    <img src="https://lh3.googleusercontent.com/d/1a6jN9BpJ5EwQrtHQDXyE86ZnNmsYIewI" alt="Baby" className="w-10 h-10 rounded-full border-2 border-white object-cover bg-gray-200" />
+                    <img src="https://lh3.googleusercontent.com/d/1WWaClTv-J4SPKJ8pGeSM6XydUos89N4H" alt="Baby" className="w-10 h-10 rounded-full border-2 border-white object-cover bg-brand-pale" />
+                    <img src="https://lh3.googleusercontent.com/d/1ZkBAcTyshz-FnKj1rXIDsS-hcEATKWT9" alt="Baby" className="w-10 h-10 rounded-full border-2 border-white object-cover bg-brand-light" />
                   </div>
                   <div className="ml-4 text-xs font-semibold text-brand-dusty text-left leading-tight">+500 Bebês<br/>Felizes</div>
                 </div>
@@ -260,12 +260,12 @@ export default function App() {
       <section id="servico" className="py-24 px-6 relative overflow-hidden bg-transparent">
         {/* Background Images */}
         <img 
-          src="https://drive.google.com/uc?export=view&id=1rkS88_Rk5xD0qh2IC4tohWBHuF7mZ13e" 
+          src="https://lh3.googleusercontent.com/d/1rkS88_Rk5xD0qh2IC4tohWBHuF7mZ13e" 
           alt="" 
           className="absolute bottom-0 left-0 w-48 md:w-64 lg:w-80 opacity-80 pointer-events-none"
         />
         <img 
-          src="https://drive.google.com/uc?export=view&id=1kJLRipm7Ab4GQ1PFUoW0Mmp6NqdLPgAG" 
+          src="https://lh3.googleusercontent.com/d/1kJLRipm7Ab4GQ1PFUoW0Mmp6NqdLPgAG" 
           alt="" 
           className="absolute bottom-0 right-0 w-48 md:w-64 lg:w-80 opacity-80 pointer-events-none"
         />
@@ -323,7 +323,7 @@ export default function App() {
       <section id="especialista" className="py-24 px-6 relative overflow-hidden bg-transparent">
         {/* Background Images */}
         <img 
-          src="https://drive.google.com/uc?export=view&id=1U4Q_hRpQsCR2azLp5YVqtRJFPfkF9QWD" 
+          src="https://lh3.googleusercontent.com/d/1U4Q_hRpQsCR2azLp5YVqtRJFPfkF9QWD" 
           alt="" 
           className="absolute top-0 left-0 w-72 md:w-96 lg:w-[32rem] opacity-80 pointer-events-none"
         />
@@ -334,7 +334,7 @@ export default function App() {
                 <div className="w-[320px] md:w-[400px] aspect-[4/5] bg-brand-pale organic-shape overflow-hidden soft-shadow relative z-10">
                   <div className="absolute inset-0 bg-gradient-to-tr from-brand-dusty to-transparent opacity-20 z-10"></div>
                   <img 
-                    src="https://drive.google.com/uc?export=view&id=1mJwUr8tsXUBdTeQqUZ6oXetngwFiqYep" 
+                    src="https://lh3.googleusercontent.com/d/1mJwUr8tsXUBdTeQqUZ6oXetngwFiqYep" 
                     alt="Milene Leite, Enfermeira" 
                     className="w-full h-full object-cover relative z-0"
                   />
@@ -508,7 +508,7 @@ export default function App() {
               <div className="glass-card rounded-[2.5rem] overflow-hidden soft-shadow group flex flex-col h-full border border-brand-light/50">
                 <div className="h-64 overflow-hidden relative">
                   <div className="absolute inset-0 bg-brand-dusty/20 mix-blend-overlay z-10 transition-opacity group-hover:opacity-0"></div>
-                  <img src="https://drive.google.com/uc?export=view&id=15b0a4JU2kolqQU0xt898oCm_4I6YGyO1" alt="Laserterapia" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <img src="https://lh3.googleusercontent.com/d/15b0a4JU2kolqQU0xt898oCm_4I6YGyO1" alt="Laserterapia" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                 </div>
                 <div className="p-8 md:p-10 flex-grow flex flex-col bg-white/40">
                   <div className="flex items-center gap-4 mb-6">
@@ -528,7 +528,7 @@ export default function App() {
               <div className="glass-card rounded-[2.5rem] overflow-hidden soft-shadow group flex flex-col h-full border border-brand-light/50">
                 <div className="h-64 overflow-hidden relative">
                   <div className="absolute inset-0 bg-brand-dusty/20 mix-blend-overlay z-10 transition-opacity group-hover:opacity-0"></div>
-                  <img src="https://drive.google.com/uc?export=view&id=1BwOrUJviNQw7rz4bZYauUlrPSryVnJ2c" alt="Cuidados de Enfermagem Domiciliar" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <img src="https://lh3.googleusercontent.com/d/1BwOrUJviNQw7rz4bZYauUlrPSryVnJ2c" alt="Cuidados de Enfermagem Domiciliar" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                 </div>
                 <div className="p-8 md:p-10 flex-grow flex flex-col bg-white/40">
                   <div className="flex items-center gap-4 mb-6">
@@ -554,12 +554,12 @@ export default function App() {
       <section id="contato" className="py-24 px-6 relative overflow-hidden bg-brand-pale text-center">
         {/* Background Images */}
         <img 
-          src="https://drive.google.com/uc?export=view&id=1rkS88_Rk5xD0qh2IC4tohWBHuF7mZ13e" 
+          src="https://lh3.googleusercontent.com/d/1rkS88_Rk5xD0qh2IC4tohWBHuF7mZ13e" 
           alt="" 
           className="absolute bottom-0 left-0 w-48 md:w-64 lg:w-80 opacity-80 pointer-events-none"
         />
         <img 
-          src="https://drive.google.com/uc?export=view&id=1kJLRipm7Ab4GQ1PFUoW0Mmp6NqdLPgAG" 
+          src="https://lh3.googleusercontent.com/d/1kJLRipm7Ab4GQ1PFUoW0Mmp6NqdLPgAG" 
           alt="" 
           className="absolute bottom-0 right-0 w-48 md:w-64 lg:w-80 opacity-80 pointer-events-none"
         />
@@ -592,7 +592,7 @@ export default function App() {
       <footer className="bg-transparent pt-16 pb-8 px-6">
         <div className="container mx-auto max-w-6xl flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center">
-            <img src="https://drive.google.com/uc?export=view&id=13h6AmI1Lz2197eaFEohoqaNLEr_04mWT" alt="Mommy Baby Icon" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
+            <img src="https://lh3.googleusercontent.com/d/13h6AmI1Lz2197eaFEohoqaNLEr_04mWT" alt="Mommy Baby Icon" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
             <div className="-ml-2 md:-ml-3">
               <span className="font-logo text-3xl md:text-4xl tracking-wide text-brand-accent block">Mommy Baby</span>
               <span className="text-xs text-brand-muted tracking-wide mt-1 block ml-3 md:ml-4">Atendimento em Fortaleza e região</span>
