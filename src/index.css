@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Great+Vibes&family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-dusty: #C08A93;
+  --color-brand-light: #F3E4E7;
+  --color-brand-offwhite: #FAF7F8;
+  --color-brand-beige: #EADCD2;
+  --color-brand-wine: #5A4044;
+  --color-brand-dark: #4A3236;
+  --color-brand-accent: #8B5E66;
+  --color-brand-pale: #EEDEE1;
+  --color-brand-muted: #6B5256;
+  
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  --font-script: 'Great Vibes', cursive;
+  --font-logo: "Ephesis", cursive;
+}
+
+.font-logo {
+  font-family: var(--font-logo);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  background-color: var(--color-brand-offwhite);
+  color: var(--color-brand-wine);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  color: var(--color-brand-dark);
+}
+
+.script-font {
+  font-family: var(--font-script);
+}
+
+/* Custom Utilities for glass/soft effects */
+.soft-shadow {
+  box-shadow: 0 20px 40px -15px rgba(192, 138, 147, 0.15);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(192, 138, 147, 0.1);
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.organic-shape {
+  border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+}
+
+/* Image generation placeholder fixes */
+img {
+  max-width: 100%;
+  height: auto;
+}
