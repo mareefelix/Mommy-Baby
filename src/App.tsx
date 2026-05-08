@@ -14,7 +14,7 @@ import {
   Instagram
 } from 'lucide-react';
 
-const FadeIn = ({ children, delay = 0, className = "" }: { children: React.ReactNode, delay?: number, className?: string }) => (
+const FadeIn = ({ children, delay = 0, className = "" }: { children: React.ReactNode, delay?: number, className?: string, key?: React.Key }) => (
   <motion.div
     initial={{ opacity: 0, y: 20 }}
     whileInView={{ opacity: 1, y: 0 }}
@@ -610,9 +610,9 @@ export default function App() {
         </div>
         
         <div className="container mx-auto max-w-6xl mt-12 pt-8 border-t border-brand-dusty/10 text-center flex flex-col sm:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-[0.2em] text-[#A6868B]">
-          <p>© {new Date().getFullYear()} Mommy Baby Amor.</p>
+          <p>© {new Date().getFullYear()} Mommy Baby.</p>
           <div className="flex gap-8">
-            <span className="hover:text-brand-accent transition-colors">Created by Maree Felix</span>
+            <span className="hover:text-brand-accent transition-colors">Criado por Maree Felix</span>
           </div>
         </div>
       </footer>
