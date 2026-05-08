@@ -128,7 +128,7 @@ export default function App() {
       </AnimatePresence>
 
       {/* Hero Section */}
-      <section className="relative min-h-[90vh] flex flex-col md:block items-center pt-24 pb-16 px-6 lg:px-12 overflow-hidden">
+      <section className="relative min-h-[90vh] flex flex-col md:block items-center pt-24 pb-16 px-6 lg:px-12 overflow-hidden bg-brand-offwhite">
         {/* Desktop Slider Background */}
         <div className="hidden md:block absolute inset-0 z-0">
           <AnimatePresence mode="popLayout">
@@ -139,20 +139,20 @@ export default function App() {
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 1.5, ease: "easeInOut" }}
-              className="absolute inset-0 w-full h-full object-cover"
+              className="absolute inset-0 w-full h-full object-cover object-[center_top] md:object-[70%_center] lg:object-center"
               alt="Bebê com orelha furada"
             />
           </AnimatePresence>
           {/* Overlays to fade the image into the background color where the text is */}
-          <div className="absolute inset-0 bg-gradient-to-r from-brand-offwhite via-brand-offwhite/90 to-brand-offwhite/20 lg:via-brand-offwhite/80 lg:to-transparent z-10 pointer-events-none"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-brand-offwhite via-brand-offwhite/90 to-transparent lg:via-brand-offwhite/80 xl:via-brand-offwhite/60 z-10 pointer-events-none"></div>
           <div className="absolute inset-0 bg-brand-dusty/10 mix-blend-multiply z-10 pointer-events-none"></div>
         </div>
 
         {/* Soft abstract background blobs */}
-        <div className="hidden md:block absolute top-0 left-0 -ml-20 -mt-20 w-[60vw] h-[60vw] bg-brand-light rounded-full mix-blend-multiply filter blur-3xl opacity-50 z-0 pointer-events-none"></div>
+        <div className="hidden md:block absolute top-0 left-0 -ml-20 -mt-20 w-[60vw] max-w-[800px] h-[60vw] max-h-[800px] bg-brand-light rounded-full mix-blend-multiply filter blur-3xl opacity-50 z-0 pointer-events-none"></div>
         
-        <div className="container mx-auto max-w-6xl relative z-10 flex flex-col md:flex-row w-full h-full flex-grow items-center">
-          <div className="w-full lg:w-[55%] space-y-8 text-center md:text-left relative pt-8">
+        <div className="container mx-auto max-w-6xl relative z-10 flex flex-col md:flex-row h-full flex-grow items-center">
+          <div className="w-full lg:w-[60%] space-y-8 text-center md:text-left relative pt-8">
             
             <FadeIn>
               <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/60 backdrop-blur-md text-brand-dusty text-xs font-semibold uppercase tracking-wider mb-6 border border-brand-dusty/10">
